@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title> Eywa Photo Stocks</title>
+        <link rel="shortcut icon" type="image/x-icon" href="xicon.png">
+        <link rel="stylesheet" href="aboutus.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <meta name ="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            @font-face {
+                font-family: fortnite;
+                src: url(fortnite.otf);
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <section id="banner">
+            <a href="home.html">
+                <img src="logo.png" class="logo">
+                 </a>
+
+        </section>
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+                    <li><a href="home.html#products">PRODUCTS</a></li>
+                    <li><a href="#footer">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menubtn">
+            <img src="menu.png" id="menu">
+
+        </div>
+
+ 
+    <!--ABOUT US-->
+        <section id="aboutus">
+
+            <div class="title-text">
+                <p>ABOUT US</p></div>
+                <div class="aboutus-text">
+                <h1>Nature always wears the colors of the spirit.
+                    The Earth has music for those who listen.
+                    Look deep into nature and then you will understand everything better.
+                    To walk in nature is to witness a thousand miracles.
+                    The Earth laughs in flowers.
+                    Nature is the art of God.
+                    Lightning is incredible.
+                    Joy in looking and comprehending is nature’s most beautiful gift.
+                    Taking pictures is savoring life intensely, every hundredth of a second
+                    How glorious a greeting the sun gives the mountains!
+                    The shoreline at sunset is simply….beautiful.
+                    Just living is not enough…One must have sunshine, freedom and a little flower.
+                    Keep your love of nature, for that, is the true way to understand art more and more.
+                    Landscape photography is the supreme test of the photographer – and often the supreme disappointment.
+                    The bird is powered by its own life and by its motivation.
+                    Every sunset brings the promise of a new dawn.
+                    Colors are the smiles of nature.</h1>
+            </div>
+            
+            
+        </section>
+
+
+
+
+
+
+<!--footer-->
+
+<section id="footer">
+
+    <img src="footer-img.png" class="footer-img"></img>
+
+    <div class="title-text">
+        <p>CONTACT US</p>
+        <h1>Email us your Reviews and Suggestions</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours of Website</h1>
+            <p><i class="fa fa-clock-o"></i>Monday to Friday - 12pm to 3pm</p>
+            <p><i class="fa fa-clock-o"></i>Saturday to Sunday - 10am to 3pm</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get In Touch</h1>
+            <p>Email: Horphanjones@gmail.com<i class="fa fa-paper-plane"></i></p>
+            <p>Mobile Number: +9779815263042<i class="fa fa-phone"></i></p>
+            <p>Location: Kalaiya-1, Bara, Nepal<i class="fa fa-map-marker"></i></p>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+
+        <p>Copyright Eywa Photo Stocks 2020</p>
+
+    </div>
+
+
+
+</section>
+
+
+
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sidenav = document.getElementById("sidenav")
+            var menu = document.getElementById("menu")
+
+            sidenav.style.right = "-200px";
+
+            menubtn.onclick = function(){
+                if(sidenav.style.right == "-200px"){
+                    sidenav.style.right = "0";
+                    menu.src= "close.png";
+                }
+                else{
+                    sidenav.style.right = "-200px";
+                    menu.src= "menu.png";
+                }
+            }   
+
+
+            var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+        </script>
+
+
+    </body>
+</html>
