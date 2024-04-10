@@ -1,6 +1,8 @@
 # eywa-website
 study, learning website design
 
+published urls : https://eywa.netlify.app/
+
 run home.html for good experience.
 
 this is test website used for learning purpose and
