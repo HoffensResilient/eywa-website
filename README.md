@@ -1,7 +1,7 @@
 # eywa-website
 study, learning website design
 
-published urls : https://eywa.netlify.app/
+published urls : https://eywastocks.netlify.app/
 
 run home.html for good experience.
 
