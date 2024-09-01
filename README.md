@@ -14,7 +14,7 @@
 
 Explore the **Eywa Stocks** website live:
 
-**Published URL**: [Eywa Stocks/](https://eywastocks.netlify.app/)
+**Published URL**: [Eywa Stocks](https://eywastocks.netlify.app/)
 
 For the best experience, start with the `home.html` page.
 
