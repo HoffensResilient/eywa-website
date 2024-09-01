@@ -52,7 +52,7 @@ This website is a test project created for learning purposes. The content includ
 
 ## License
 
-This project is intended for educational purposes and is not licensed for commercial use. For any inquiries.
+This project is intended for educational purposes and is not licensed for commercial use.
 
 ## Contact
 
